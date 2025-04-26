@@ -1,0 +1,35 @@
+title: Old Android Game Archive
+description: Documenting the earlier years of Android gaming.
+
+exclude:
+  - README.md
+
+sass:
+  style: compressed
+  sourcemap: never
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  games:
+    output: true
+    layout: game
+    sort_by: timeframe
+    permalink: /games/:path
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "games"
+    values:
+      layout: "game"
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap

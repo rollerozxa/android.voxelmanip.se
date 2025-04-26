@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="infobox">
+	<table>
+		<tr>
+			<td class="heading" colspan="2">{{ page.title }}</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<img src="logos/{{ page.slug }}.webp" style="height:100px">
+			</td>
+		</tr>
+		<tr>
+			<th style="width:50%">Developer</th>
+			<td>{{ page.developer }}</td>
+		</tr>
+		{% if page.initial_release %}
+			<tr>
+				<th>Initial release</th>
+				<td>{{ page.initial_release }}</td>
+			</tr>
+		{% endif %}
+		{% if page.last_release %}
+			<tr>
+				<th>Last release</th>
+				<td>{{ page.last_release }}</td>
+			</tr>
+		{% endif %}
+		{% if page.last_version %}
+			<tr>
+				<th>Last version</th>
+				<td>{{ page.last_version }}</td>
+			</tr>
+		{% endif %}
+		{% if page.fate %}
+		<tr>
+			<th>Fate</th>
+			<td>{{ page.fate }}</td>
+		</tr>
+		{% endif %}
+	</table>
+</div>
+
+{{ content }}

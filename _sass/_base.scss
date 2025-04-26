@@ -1,0 +1,185 @@
+$primary: #1a8300;
+$bg: #121214;
+$bg2: #1a1a1e;
+$grey: #707070;
+
+/* roboto-regular - latin */
+@font-face {
+	font-display: swap;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./fonts/roboto-v47-latin-regular.woff2') format('woff2');
+}
+
+/* roboto-700 - latin */
+@font-face {
+	font-display: swap;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src: url('./fonts/roboto-v47-latin-700.woff2') format('woff2');
+}
+
+/* roboto-mono-regular - latin */
+@font-face {
+	font-display: swap;
+	font-family: 'Roboto Mono';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./fonts/roboto-mono-v23-latin-regular.woff2') format('woff2');
+}
+
+/* roboto-mono-700 - latin */
+@font-face {
+	font-display: swap;
+	font-family: 'Roboto Mono';
+	font-style: normal;
+	font-weight: 700;
+	src: url('./fonts/roboto-mono-v23-latin-700.woff2') format('woff2');
+}
+
+
+body {
+	background-color: $bg;
+	color: #fafafa;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.1em;
+	margin: 0;
+	font-weight: 500;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+pre, .mono, code {
+	font-family: "Fira Mono", "Roboto Mono", "Terminal", monospace;
+}
+
+pre {
+	font-size: 1rem;
+}
+
+a { color: yellow; }
+a:hover { color: orange; }
+
+p, ul li {
+	line-height: 1.75;
+}
+
+h1 {
+	margin: 0 0 0.75em;
+}
+h2,h3,h4,h5,h6 {
+	margin: 20px 0 20px;
+}
+h1 { font-size: 1.75em; }
+h2 { font-size: 1.40em; }
+h3 { font-size: 1.25em; }
+h4 { font-size: 1.00em; }
+h5 { font-size: 0.83em; }
+h6 { font-size: 0.67em; }
+
+header {
+	border-bottom: 2px solid $primary;
+	padding-top: 1em;
+
+	.title {
+		margin: auto;
+  		max-width: 1240px;
+		font-size: 1.75em;
+		font-weight: 700;
+
+		a {
+			color: #fafafa;
+			text-decoration: none;
+
+			&:hover {
+				color: unset;
+			}
+		}
+
+		img {
+			height: 48px;
+			width: 48px;
+			vertical-align: middle;
+			margin-right: 10px;
+		}
+	}
+}
+
+.content {
+	flex: 1;
+	max-width: 1240px;
+	margin: auto;
+	box-sizing: content-box;
+	border-left: 1px solid $grey;
+	border-right: 1px solid $grey;
+}
+
+footer {
+	border-top: 2px solid $primary;
+	padding-bottom: 1em;
+	text-align: center;
+	font-size: 12pt;
+}
+
+header, footer, .content {
+	background-color: $bg2;
+	padding: 1em 0.75em;
+}
+
+@media screen and (max-width: 500px) {
+	header, footer, .content {
+		padding: 1em 0.35em;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.content {
+		border: 0;
+	}
+}
+
+/// Infobox \\\
+
+.infobox {
+	background: $bg;
+	border: 1px solid $grey;
+	text-align: center;
+	min-width: 300px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 25px;
+	font-size: 1rem;
+
+	table {
+		width: 100%;
+		border-collapse: collapse;
+
+		.heading {
+			background: $primary;
+			font-weight: bold;
+		}
+
+		tr {
+			border-bottom: 1px solid $grey;
+
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+
+		td, th {
+			padding: 10px;
+		}
+	}
+
+	@media screen and (min-width: 700px) {
+		margin-top: -65px;
+		margin-left: 25px;
+		margin-right: 0;
+		float: right;
+		clear: both;
+	}
+}
