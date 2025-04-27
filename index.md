@@ -14,6 +14,8 @@ This is a list of the games that currently have entries:
 - [{{ game.title }}]({{ game.url }})
 {%- endfor %}
 
+Also see [games listed by their eventual fate](/games-by-fate).
+
 ## Miscellaneous articles
 Other articles written related to old versions of Android:
 
