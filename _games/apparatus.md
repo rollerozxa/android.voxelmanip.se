@@ -13,4 +13,4 @@ There is also a sandbox mode which allows you to freely build all sorts of contr
 
 When Apparatus was released in 2011, it received widespread critical acclaim and news coverage from Android news outlets and beyond, topped the list of both best selling and top rated game in Android Market at its peak, and was handpicked as "Editor's Choice" by Google for several months.
 
-*This page is only a summary about the game. For more information about the state of the game as well as download links, please see [Apparatus on the Principia Wiki](https://principia-web.se/wiki/Apparatus).*
+*This page is only a summary about the game. For more information about the game as well as download links, please see [the Apparatus fan website](https://apparatus.voxelmanip.se).*
