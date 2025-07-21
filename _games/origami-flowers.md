@@ -33,4 +33,4 @@ However, for archival purposes, a collection of versions of Origami Daisy and Or
 - [Origami Rose](https://archive.org/details/com.adamschmelzle.origami.rose)
 
 ## Replacement server
-Around 2019 a replacement server was being developed by ROllerozxa, however it was abandoned before much of the game's functionality was reimplemented, and there is no instance of it running. The final source code for it can be found on [GitHub](https://github.com/rollerozxa/flower-web).
+Around 2019 a replacement for the server used by the game (flower-web) was being developed by ROllerozxa, however it was abandoned before much of the game's functionality was reimplemented, and there is no instance of it running. A video showcasing it in action can be seen [on YouTube](https://www.youtube.com/watch?v=zvzFDPuO3L0), and the final source code for it can be found on [GitHub](https://github.com/rollerozxa/flower-web).
