@@ -16,6 +16,6 @@ Where the cutoff for the classic Pocket Edition ends can be discussed. However w
 With the 1.2 Better Together update in 2017, the Pocket Edition codebase which also formed the basis of the Windows 10 Edition and the new Xbox One Edition, the moniker of all these editions were dropped to just "Minecraft" (being distinguished with "Bedrock Edition" when necessary).
 
 ## Downloads
-A full archive of old Minecraft Pocket Edition versions is maintained by Omniarchive. Due to the descendant of Minecraft Pocket Edition still being a commercially sold product, no links will be provided.
+A full archive of old Minecraft Pocket Edition versions is maintained by Omniarchive, and APK download links for every pre-1.0 version of MCPE for Android exists on the [Minecraft Wiki](https://minecraft.wiki/w/Bedrock_Edition_version_history#Pocket_Edition_Alpha).
 
 [PocketMine-MP](https://pmmp.io/) is an open source server software implementation for Minecraft Bedrock Edition, and [there are old releases supporting old Pocket Edition versions going back to 0.7.x](https://github.com/pmmp/PocketMine-MP/releases?page=40). [NostalgiaCore](https://github.com/kotyaralih/NostalgiaCore) is a fork off of the PocketMine-MP 0.8.x codebase which still gets maintenance updates done to it.
